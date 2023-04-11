@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var board = GameBoard()
+    
     var body: some View {
         VStack {
             HStack {
@@ -27,7 +30,11 @@ struct ContentView: View {
                 ForEach(0..<11, id: \.self) { row in
                     HStack {
                         ForEach(0..<22, id: \.self) { col in
-                            Text("X")
+                            let bacteria = board.grid[row][col]
+                            
+                            BacteriaView(bacteria: bacteria) {
+                                // rotate this bacteria
+                            }
                         }
                     }
                 }

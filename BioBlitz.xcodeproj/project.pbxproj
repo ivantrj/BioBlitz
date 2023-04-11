@@ -11,6 +11,9 @@
 		7D9999BC29E456C500624F9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9999BB29E456C500624F9B /* ContentView.swift */; };
 		7D9999BE29E456C700624F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9999BD29E456C700624F9B /* Assets.xcassets */; };
 		7D9999C129E456C700624F9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9999C029E456C700624F9B /* Preview Assets.xcassets */; };
+		7D9999C929E4601C00624F9B /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9999C829E4601C00624F9B /* Bacteria.swift */; };
+		7D9999CB29E462DC00624F9B /* BacteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9999CA29E462DC00624F9B /* BacteriaView.swift */; };
+		7D9999CD29E46B6200624F9B /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9999CC29E46B6200624F9B /* GameBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		7D9999BD29E456C700624F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D9999C029E456C700624F9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D9999C229E456C700624F9B /* BioBlitz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BioBlitz.entitlements; sourceTree = "<group>"; };
+		7D9999C829E4601C00624F9B /* Bacteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
+		7D9999CA29E462DC00624F9B /* BacteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacteriaView.swift; sourceTree = "<group>"; };
+		7D9999CC29E46B6200624F9B /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				7D9999B929E456C500624F9B /* BioBlitzApp.swift */,
+				7D9999C829E4601C00624F9B /* Bacteria.swift */,
+				7D9999CA29E462DC00624F9B /* BacteriaView.swift */,
 				7D9999BB29E456C500624F9B /* ContentView.swift */,
+				7D9999CC29E46B6200624F9B /* GameBoard.swift */,
 				7D9999BD29E456C700624F9B /* Assets.xcassets */,
 				7D9999C229E456C700624F9B /* BioBlitz.entitlements */,
 				7D9999BF29E456C700624F9B /* Preview Content */,
@@ -141,6 +150,9 @@
 			files = (
 				7D9999BC29E456C500624F9B /* ContentView.swift in Sources */,
 				7D9999BA29E456C500624F9B /* BioBlitzApp.swift in Sources */,
+				7D9999CD29E46B6200624F9B /* GameBoard.swift in Sources */,
+				7D9999C929E4601C00624F9B /* Bacteria.swift in Sources */,
+				7D9999CB29E462DC00624F9B /* BacteriaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
